@@ -56,8 +56,7 @@ def checkComputerOver16(computerScore, userScore):
         return computerScore
         
 
-
-#This is the main game loop, after both the computer and user have drawn their first two cards 
+#This function checks who the winner is 
 
 def checkWinner(computerScore, userScore):
     
@@ -97,6 +96,8 @@ def checkWinner(computerScore, userScore):
         else:
             drawOneCard(computerScore, userScore)
             return
+
+#This is the main game loop, after both the computer and user have drawn their first two cards
 
 def drawOneCard(computerScore, userScore):
 
