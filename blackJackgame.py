@@ -1,8 +1,9 @@
 import random
 
-# 11 is the Ace card
+#BlackJackGame
+#11 is the Ace card
 #10 are the queen/king/jack and 10 cards
-# Ace can also be 1 but for now will just use 11
+#Ace can also be 1 but for now will just use 11
 
 cards = [11,2,3,4,5,6,7,8,9,10,10,10,10] 
 
